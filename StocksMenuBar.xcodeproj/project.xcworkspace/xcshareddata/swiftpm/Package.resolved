@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "salmonui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kamaal111/SalmonUI.git",
+      "state" : {
+        "revision" : "0f3a86a590da91214e22811ebb787a3ca6f24c57",
+        "version" : "4.4.1"
+      }
+    }
+  ],
+  "version" : 2
+}

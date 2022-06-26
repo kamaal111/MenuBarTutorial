@@ -11,8 +11,8 @@ import os.log
 struct Logster {
     private let logger: Logger
 
-    init(label: String) {
-        self.logger = Logger(subsystem: Bundle.main.bundleIdentifier!, category: label)
+    init<T>(for type: T.Type) {
+        self.logger = Logger(subsystem: Bundle.main.bundleIdentifier!, category: String(describing: type))
     }
 
     func info(_ message: String) {

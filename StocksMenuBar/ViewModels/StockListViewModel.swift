@@ -13,7 +13,7 @@ final class StockListViewModel: ObservableObject {
     @Published private(set) var stocks: [Stock] = []
     @Published var loading = false
 
-    private let logger = Logster(label: "stock_list_view_model")
+    private let logger = Logster(for: StockListViewModel.self)
 
     init() {
         setupObservers()

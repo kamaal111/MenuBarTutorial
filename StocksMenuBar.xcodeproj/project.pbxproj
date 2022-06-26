@@ -55,8 +55,8 @@
 		2CCDDAC72868B89300C6C1E1 = {
 			isa = PBXGroup;
 			children = (
-				2CCDDAD22868B89300C6C1E1 /* StocksMenuBar */,
 				2CCDDAD12868B89300C6C1E1 /* Products */,
+				2CCDDAD22868B89300C6C1E1 /* StocksMenuBar */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +71,9 @@
 		2CCDDAD22868B89300C6C1E1 /* StocksMenuBar */ = {
 			isa = PBXGroup;
 			children = (
-				2CCDDAF32868C94A00C6C1E1 /* Info.plist */,
 				2CCDDADC2868B89700C6C1E1 /* StocksMenuBar.entitlements */,
+				2CCDDAF32868C94A00C6C1E1 /* Info.plist */,
+				2CCDDAF62868CDDE00C6C1E1 /* AppDelegate.swift */,
 				2CCDDAD52868B89300C6C1E1 /* ContentView.swift */,
 				2CCDDAD32868B89300C6C1E1 /* StocksMenuBarApp.swift */,
 				2CCDDAD72868B89700C6C1E1 /* Assets.xcassets */,
@@ -82,7 +83,6 @@
 				2CCDDAE52868B91F00C6C1E1 /* Services */,
 				2CCDDAEB2868BA7700C6C1E1 /* Utilities */,
 				2CCDDAE82868BA2400C6C1E1 /* ViewModels */,
-				2CCDDAF62868CDDE00C6C1E1 /* AppDelegate.swift */,
 			);
 			path = StocksMenuBar;
 			sourceTree = "<group>";

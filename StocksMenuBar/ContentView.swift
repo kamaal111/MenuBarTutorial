@@ -15,7 +15,7 @@ struct ContentView: View {
         ZStack {
             VStack(alignment: .leading) {
                 Text("Stocks")
-                    .font(.title2)
+                    .font(.title)
                     .bold()
                     .padding()
                 List(stockListViewModel.stocks, id: \.symbol) { stock in

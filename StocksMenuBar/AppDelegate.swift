@@ -13,7 +13,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
     private var popover = AppDelegate.makePopover()
 
     func applicationDidFinishLaunching(_ notification: Notification) {
-        let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+        statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
 
         if let statusButton = statusItem.button {
             statusButton.image = NSImage(
@@ -21,8 +21,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
                 accessibilityDescription: "Chart Line")
             statusButton.action = #selector(togglePopover)
         }
-
-        self.statusItem = statusItem
     }
 
     @objc

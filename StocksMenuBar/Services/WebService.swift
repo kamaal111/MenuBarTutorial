@@ -13,7 +13,7 @@ enum NetworkError: Error {
 }
 
 class WebService {
-    private let logger = Logster(for: WebService.self)
+    private lazy var logger = Logster(for: Self.self)
 
     func getStocks(url: URL) async throws -> [Stock] {
         let (data, response) = try await URLSession.shared.data(from: url)
